@@ -1,0 +1,15 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.external.osxExec": "iTerm.app",
+    "[rust]": {
+        "editor.formatOnSave": true,
+    },
+    "git.openRepositoryInParentFolders": "always",
+    "workbench.startupEditor": "none",
+    "redhat.telemetry.enabled": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "rust-analyzer.check.features": "all",
+    "editor.formatOnSave": true,
+}

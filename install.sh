@@ -32,3 +32,12 @@ brew install \
 git config --global user.name "René Perschon"
 git config --global user.email "rperschon85@gmail.com"
 git config --global core.editor nano
+
+echo "Downloading .zshrc"
+curl 'https://raw.githubusercontent.com/Leopard2A5/mac-setup/refs/heads/main/.zshrc' > $HOME/.zshrc
+
+echo "Downloading vscode settings"
+curl 'https://raw.githubusercontent.com/Leopard2A5/mac-setup/refs/heads/main/settings.json' > $HOME/Library/Application\ Support/Code/User/settings.json
+
+echo "Downloading vscode keybinds"
+curl 'https://raw.githubusercontent.com/Leopard2A5/mac-setup/refs/heads/main/keybindings.json' > $HOME/Library/Application\ Support/Code/User/keybindings.json
